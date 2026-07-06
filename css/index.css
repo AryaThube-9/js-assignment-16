@@ -6,17 +6,24 @@
 }
 
 body{
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("../images/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: lightblue;
     min-height: 100vh;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    margin-left: 100px;
     align-items: center;
     padding: 20px;
 }
 
 .container{
-    width: 100%;
-    max-width: 500px;
+     background: rgba(255,255,255,0.92);
+    backdrop-filter: blur(10px);
+    width: 500px;
     background: white;
     padding: 25px;
     border-radius: 20px;
@@ -78,4 +85,14 @@ h1{
     align-items: center;
     word-break: break-word;
     box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+}
+
+.task:hover{
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.task span {
+    flex: 1;
+    margin-right: 10px;
 }
