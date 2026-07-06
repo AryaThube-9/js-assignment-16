@@ -19,7 +19,7 @@ function loadTasks() {
         taskContainer.innerHTML += `
                 <div class="task">
                 <span>${tasks[i]}</span>
-                <button class="delete-btn" onclick="deleteTasks(${i})">Delete</button>
+                <img src="./images/delete.png" onclick="deleteTasks(${i})" height="30px"  style="cursor: pointer;">
                 </div>`;
     }
 }
