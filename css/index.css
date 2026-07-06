@@ -96,3 +96,32 @@ h1{
     flex: 1;
     margin-right: 10px;
 }
+
+@media (max-width: 600px) {
+
+    body{
+        margin: auto;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .task-info-container {
+        flex-direction: column;
+    }
+
+    #add-todo-btn {
+        width: 100%;
+    }
+
+    .task {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 10px;
+    }
+
+    .delete-btn {
+        width: 100%;
+    }
+}
