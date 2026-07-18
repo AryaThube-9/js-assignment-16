@@ -1,12 +1,12 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: inherit;
 }
 
-body{
-    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)),url("../images/bg-image.jpg");
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, 0.25)), url("../images/bg-image.jpg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,17 +20,17 @@ body{
     padding: 20px;
 }
 
-.container{
-     background: rgba(255,255,255,0.92);
+.container {
+    background: rgba(255, 255, 255, 0.92);
     backdrop-filter: blur(10px);
     width: 500px;
     background: white;
     padding: 25px;
     border-radius: 20px;
-    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
-h1{
+h1 {
     text-align: center;
     margin-bottom: 25px;
     color: #333;
@@ -84,12 +84,12 @@ h1{
     justify-content: space-between;
     align-items: center;
     word-break: break-word;
-    box-shadow: 0 3px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 3px 8px rgba(0, 0, 0, 0.08);
 }
 
-.task:hover{
+.task:hover {
     transform: translateY(-2px);
-    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
 }
 
 .task span {
@@ -99,7 +99,7 @@ h1{
 
 @media (max-width: 600px) {
 
-    body{
+    body {
         margin: auto;
     }
 
