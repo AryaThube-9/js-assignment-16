@@ -26,9 +26,9 @@ function loadTasks() {
 
 function addTasks() {
     const taskInputElement = document.getElementById('todo-input');
-    const task = taskInputElement.value;
+    const task = taskInputElement.value.trim();
 
-    if (!task) {
+    if (task === '') {
         alert('please enter a task');
         return;
     }
